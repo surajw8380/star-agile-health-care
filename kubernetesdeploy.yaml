@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: suraj-javahealthcare-container
-        image: suraj838098/medicure-webapp:v1.0
+        image: suraj838098/medicure-project:1
         ports:
         - containerPort: 8082
 ---
@@ -32,6 +32,7 @@ spec:
 
   type: NodePort
   ports:
-  - nodePort: 31039
+  - nodePort: 31031
     port: 8082
     targetPort: 8082
+
