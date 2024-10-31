@@ -7,4 +7,4 @@
     command : sudo apt-get update
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8085:8082 suraj838098/medicure-webapp:v1.0
+    command: docker run -itd -p 8085:8082 suraj838098/medicure-project:1
