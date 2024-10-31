@@ -1,0 +1,25 @@
+- name : install tools on slave node
+  hosts : samplenode1
+  become: yes
+  connection : ssh
+  tasks :
+  - name: updating apt
+    command : sudo apt-get update
+
+  - name : install java
+    command : sudo apt install openjdk-17-jre -y
+
+  - name : install git
+    command : sudo apt install git -y
+
+  - name : install Maven
+    command : sudo apt install maven -y
+
+  - name : Install Docker
+    command : sudo apt-get install -y docker.io
+
+  - name : Start Docker
+    command : sudo systemctl start docker
+
+  - name : Enable Docker
+    command : sudo systemctl enable docker
