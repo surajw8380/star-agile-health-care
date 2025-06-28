@@ -8,7 +8,7 @@ metadata:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: suraj-medicure-deploy-test
+  name: suraj-medicure-deploy-test1
   namespace: testserver
   labels:
     app: healthcare
