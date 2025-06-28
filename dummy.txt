@@ -1,1 +1,1 @@
-To check the webhook trigger for Medicure project
+To check the webhook trigger for Medicure project.
